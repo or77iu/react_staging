@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home"; //路由组件
 import About from "./pages/About"; //路由组件
 import Header from "./components/Header"; //一般组件
-import Test from "./components/Test"; //一般组件
+import Test from "./pages/Test";
 import MyNavLink from "./components/MyNavLink";
 export default class App extends Component {
   render() {
